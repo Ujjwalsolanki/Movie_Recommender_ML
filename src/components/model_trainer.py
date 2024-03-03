@@ -32,6 +32,7 @@ class ModelTrainer:
 
             # pickle.dump(new,open('movie_list.pkl','wb'))
             pickle.dump(similarity,open('artifacts/similarity.pkl','wb'))
+            pickle.dump(movies,open('artifacts/movies.pkl','wb'))
 
 
         except Exception as e:

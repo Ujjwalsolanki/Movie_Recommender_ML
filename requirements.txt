@@ -8,4 +8,5 @@ jupyter
 ipython
 notebook
 nltk
+streamlit
 -e .
